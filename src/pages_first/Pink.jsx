@@ -7,7 +7,7 @@ const LetsImg = styled.img`
 `;
 
 const ColorImg = styled.img`
-  content: url("Color_p.svg");
+  content: url("Color_p.png");
   width: 165%;
   object-fit: cover;
 `;
