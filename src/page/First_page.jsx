@@ -26,33 +26,28 @@ const LinkPic = styled.img`
   margin-top: 65vh;
   margin-left: 5vw;
 `;
+
+const FirstImg = styled.img`
+  margin-top: 20%;
+  width: 100%;
+  margin-bottom: -82%;
+`;
+
+const Btn = styled.img`
+  width: 60%;
+  margin-left: 3%;
+`;
+
 const First_page = () => {
-  const handleLinkClick = () => {
-    // 주어진 링크로 이동합니다.
-    window.location.href =
-      "https://www.sandollcloud.com/CanpusCampaign?utm_source=university&utm_medium=website&utm_campaign=canpuscampaign&utm_content=season3&utm_term=can3_trendfesta";
-
-    // 페이지를 가운데로 스크롤합니다.
-    const windowHeight = window.innerHeight;
-    const documentHeight = document.documentElement.scrollHeight;
-    window.scrollTo({
-      top: (documentHeight - windowHeight) / 2, // 페이지 중앙으로 스크롤
-      behavior: "smooth", // 부드러운 스크롤 효과
-    });
+  const url =
+    "https://www.sandollcloud.com/CanpusCampaign?utm_source=university&utm_medium=website&utm_campaign=canpuscampaign&utm_content=season3&utm_term=can3_trendfesta";
+  const Go = () => {
+    window.open(url);
   };
-
   return (
     <div>
-      <Back>
-        <Pic src="./F_page.svg"></Pic>
-        <a
-          href="https://www.sandollcloud.com/CanpusCampaign?utm_source=university&utm_medium=website&utm_campaign=canpuscampaign&utm_content=season3&utm_term=can3_trendfesta"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <LinkPic src="./alink.svg" />
-        </a>
-      </Back>
+      <FirstImg src="/lastBack.png" />
+      <Btn src="/lastBtn.png" onClick={Go} />
     </div>
   );
 };
