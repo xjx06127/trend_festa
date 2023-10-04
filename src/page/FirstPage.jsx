@@ -38,7 +38,7 @@ const Btn = styled.img`
   margin-left: 3%;
 `;
 
-const First_page = () => {
+const FirstPage = () => {
   const url =
     "https://www.sandollcloud.com/CanpusCampaign?utm_source=university&utm_medium=website&utm_campaign=canpuscampaign&utm_content=season3&utm_term=can3_trendfesta";
   const Go = () => {
@@ -52,4 +52,4 @@ const First_page = () => {
   );
 };
 
-export default First_page;
+export default FirstPage;

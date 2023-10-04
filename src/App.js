@@ -7,7 +7,7 @@ import Purple from "./pages_first/Purple";
 import Red from "./pages_first/Red";
 import Yellow from "./pages_first/Yellow";
 import SecondPage from "./pages_second/SecondPage";
-import First_page from "./page/First_page";
+import FirstPage from "./page/FirstPage";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             path="/blue"
             element={
               <>
-                <Blue /> <SecondPage /> <First_page />
+                <Blue /> <SecondPage /> <FirstPage />
               </>
             }
           />
@@ -29,7 +29,7 @@ function App() {
               <>
                 <Green />
                 <SecondPage />
-                <First_page />
+                <FirstPage />
               </>
             }
           />
@@ -38,7 +38,7 @@ function App() {
             element={
               <>
                 <Pink /> <SecondPage />
-                <First_page />
+                <FirstPage />
               </>
             }
           />
@@ -47,7 +47,7 @@ function App() {
             element={
               <>
                 <Purple /> <SecondPage />
-                <First_page />
+                <FirstPage />
               </>
             }
           />
@@ -56,7 +56,7 @@ function App() {
             element={
               <>
                 <Red /> <SecondPage />
-                <First_page />
+                <FirstPage />
               </>
             }
           />
@@ -65,7 +65,7 @@ function App() {
             element={
               <>
                 <Yellow /> <SecondPage />
-                <First_page />
+                <FirstPage />
               </>
             }
           />
