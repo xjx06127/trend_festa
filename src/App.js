@@ -6,6 +6,7 @@ import Pink from "./pages_first/Pink";
 import Purple from "./pages_first/Purple";
 import Red from "./pages_first/Red";
 import Yellow from "./pages_first/Yellow";
+import Second from "./Second";
 
 function App() {
   return (
