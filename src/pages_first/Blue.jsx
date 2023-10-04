@@ -47,17 +47,16 @@ const Con = styled.div`
 const Blue = () => {
   return (
     <>
-    <Con>
-      <LetsImg />
-      <ColorCon>
-        <ColorImg />
-      </ColorCon>
-      <BottomCon>
-        <ExplainImg />
-      </BottomCon>
-    </Con>
-    <Second />
-    <SecondPage />
+      <Con>
+        <LetsImg />
+        <ColorCon>
+          <ColorImg />
+        </ColorCon>
+        <BottomCon>
+          <ExplainImg />
+        </BottomCon>
+      </Con>
+      <Second />
     </>
   );
 };
