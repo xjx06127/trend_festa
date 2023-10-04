@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Second from "../Second";
 
 const LetsImg = styled.img`
   content: url("Lets_g.svg");
@@ -44,6 +45,7 @@ const Con = styled.div`
 
 const Red = () => {
   return (
+    <>
     <Con>
       <LetsImg />
       <ColorCon>
@@ -53,6 +55,8 @@ const Red = () => {
         <ExplainImg />
       </BottomCon>
     </Con>
+    <Second />
+    </>
   );
 };
 

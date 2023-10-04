@@ -1,6 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SecondPage from "./pages_second/SecondPage";
-import {GlobalStyle} from "./GlobalStyle";
 import { GlobalStyle } from "./GlobalStyle";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blue from "./pages_first/Blue";
@@ -16,7 +13,6 @@ function App() {
       <GlobalStyle />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<SecondPage/>}/>
           <Route path="/blue" element={<Blue />} />
           <Route path="/green" element={<Green />} />
           <Route path="/pink" element={<Pink />} />
