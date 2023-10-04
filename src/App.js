@@ -6,19 +6,63 @@ import Pink from "./pages_first/Pink";
 import Purple from "./pages_first/Purple";
 import Red from "./pages_first/Red";
 import Yellow from "./pages_first/Yellow";
+import SecondPage from "./pages_second/SecondPage";
 
 function App() {
   return (
-    <>    
+    <>
       <GlobalStyle />
       <BrowserRouter>
         <Routes>
-          <Route path="/blue" element={<Blue />} />
-          <Route path="/green" element={<Green />} />
-          <Route path="/pink" element={<Pink />} />
-          <Route path="/purple" element={<Purple />} />
-          <Route path="/red" element={<Red />} />
-          <Route path="/yellow" element={<Yellow />} />
+          <Route
+            path="/blue"
+            element={
+              <>
+                <Blue /> <SecondPage />
+              </>
+            }
+          />
+          <Route
+            path="/green"
+            element={
+              <>
+                <Green />
+                <SecondPage />
+              </>
+            }
+          />
+          <Route
+            path="/pink"
+            element={
+              <>
+                <Pink /> <SecondPage />
+              </>
+            }
+          />
+          <Route
+            path="/purple"
+            element={
+              <>
+                <Purple /> <SecondPage />
+              </>
+            }
+          />
+          <Route
+            path="/red"
+            element={
+              <>
+                <Red /> <SecondPage />
+              </>
+            }
+          />
+          <Route
+            path="/yellow"
+            element={
+              <>
+                <Yellow /> <SecondPage />
+              </>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
