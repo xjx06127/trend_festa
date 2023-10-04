@@ -41,7 +41,7 @@ const Btn = styled.img`
 //없을 경우, 문서 전체를 기준으로 결정한다.
 
 const SecondPage = () => {
-    const url = "https://www.converse.co.kr/?utm_source=google&utm_medium=cpc&utm_campaign=google_sa_pc&utm_content=&utm_term=%EC%BA%94%EB%B2%84%EC%8A%A4&utm_source=google&utm_medium=cpc&utm_campaign=google_sa_pc&utm_content=&utm_term=%EC%BA%94%EB%B2%84%EC%8A%A4&gad_source=1&gclid=CjwKCAjw9-6oBhBaEiwAHv1QvOjs1IZVZVwW3q4dEZdS6abE7TDkyQvELOL4sJfjht9cjJ927pLm9RoCiFgQAvD_BwE";
+    const url = "https://www.sandollcloud.com/CanpusCampaign?utm_source=university&utm_medium=website&utm_campaign=canpuscampaign&utm_content=season3&utm_term=can3_trendfesta";
 
     const GoToCanpus = () => {
         window.open(url);
